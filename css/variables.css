@@ -1,0 +1,48 @@
+:root {
+    /* Brand Colors */
+    --color-musa-green: #167544;
+    --color-storehouse-gold: #F5CB5C;
+    --color-horizon-gold: #D1F843;
+    --color-empire-black: #101010;
+    --color-ivory-white: #ECF0EF;
+
+    /* Functional Colors */
+    --color-bg: var(--color-empire-black);
+    --color-bg-alt: #1a1a1a;
+    --color-text: var(--color-ivory-white);
+    --color-text-inverse: var(--color-empire-black);
+    --color-text-muted: rgba(236, 240, 239, 0.6);
+
+    /* Typography */
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    
+    --font-size-xs: 0.875rem;
+    --font-size-sm: 1rem;
+    --font-size-md: 1.25rem;
+    --font-size-lg: 2rem;
+    --font-size-xl: 3.5rem;
+    --font-size-xxl: 5rem;
+    --font-size-jumbo: 8rem;
+
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 4rem;
+    --spacing-xl: 6rem;
+    --spacing-xxl: 10rem;
+
+    /* Grid */
+    --container-width: 1400px;
+    --grid-gap: 24px;
+
+    /* Animation */
+    --transition-fast: 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    --transition-smooth: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+
+    /* Radius */
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 32px;
+}
